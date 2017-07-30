@@ -9,8 +9,16 @@ package encapsulation;
 public class Main {
 
     public static void main(String[] args) {
-        Player player = new Player("Johnny", 100, "Valyrian Steel Sword");
-        System.out.println("Initial Health is " + player.getHealth());
+//        Player player = new Player("Johnny", 100, "Valyrian Steel Sword");
+//        System.out.println("Initial Health is " + player.getHealth());
+
+        Printer printer = new Printer(50,true);
+        System.out.println("Inital page count = " + printer.getPagesPrinted());
+        int pagesPrinted = printer.printPages(4);
+        System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
+        pagesPrinted = printer.printPages(2);
+        System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
+
     }
 
 }
