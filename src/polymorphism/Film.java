@@ -71,7 +71,7 @@ class ForgettableMovie extends Movie {
     // plot not overridden
 }
 
-public class Main {
+public class Film {
 
     public static void main(String[] args) {
         for (int i=1; i<11; i++){
