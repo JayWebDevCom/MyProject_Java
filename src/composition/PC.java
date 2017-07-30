@@ -1,7 +1,7 @@
 package composition;
 
 // Composition is having objects within objects - a master object that manages and looks after other objects
-// Favour composition over inheritance
+// Favour composition ('is-a') over inheritance
 
 public class PC {
 
