@@ -21,8 +21,6 @@ public class Case {
         return model;
     }
 
-
-
     public String getManufacturer() {
         return manufacturer;
     }
