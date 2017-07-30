@@ -14,7 +14,6 @@ public class Drawing extends JFrame {
     }
 
     public void paint(Graphics g){
-        // TODO
         super.paint(g);
         g.drawRect(50, 50, 100, 25);
         g.setColor(new Color(0, 0, 255));
