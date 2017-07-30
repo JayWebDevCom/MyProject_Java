@@ -5,6 +5,7 @@ package encapsulation;
 // by making fields they are no longer accessible from outside classes
 // method names need not expose the actual attribute names of that class so they therefore cannot be accessed or manipulated
 // confinement and protect members and methods of a class to prevent unauthorized access
+// hide internal workings of class - only scope public methods are available
 
 public class Main {
 
