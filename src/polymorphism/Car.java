@@ -102,7 +102,6 @@ class Toyota extends Car {
 
 
 
-
 class AnotherMain {
     public static void main(String[] args) {
         Car car = new Car(8, "Base Car");
